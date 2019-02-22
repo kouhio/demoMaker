@@ -1,0 +1,122 @@
+main
+buffer
+enter basic init here
+addItemToBuffer
+findBufferItem
+bufferList
+addNewBufferItem data:trigger=loop step:1 item:0
+getBufferStep
+bufferItem
+addNewItemToList trigger=loop
+Item
+setLastItem
+parseBufferItem
+getTrigger
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:image=kuva2.jpg step:1 item:0
+getBufferStep
+bufferItem
+addNewItemToList image=kuva2.jpg
+Item
+setLastItem
+parseBufferItem
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:x=-1 step:1 item:0
+getBufferStep
+bufferItem
+~bufferItem item:
+addNewItemToList x=-1
+Item
+setLastItem
+parseBufferItem
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:y=-1 step:1 item:0
+getBufferStep
+parseBufferItem data:y=-1 item:0
+getItemByNumber
+Item
+addNewItemToList y=-1
+Item
+~Item uninitialized
+setLastItem
+parseBufferItem
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:effect=rotate step:1 item:0
+getBufferStep
+parseBufferItem data:effect=rotate item:0
+getItemByNumber
+parseBufferItem
+getEffect
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:step=50 step:1 item:0
+getBufferStep
+parseBufferItem data:step=50 item:0
+getItemByNumber
+parseBufferItem
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:trigger=video step:2 item:0
+getBufferStep
+bufferItem
+~bufferItem item:
+~bufferItem item:
+~Item step=50
+~Item y=-1
+addNewItemToList trigger=video
+Item
+setLastItem
+parseBufferItem
+getTrigger
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:video=video2.avi step:2 item:0
+getBufferStep
+parseBufferItem data:video=video2.avi item:0
+getItemByNumber
+Item
+addNewItemToList video=video2.avi
+Item
+~Item uninitialized
+setLastItem
+parseBufferItem
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:scroller=ihan testimenoja tässä step:2 item:1
+getBufferStep
+parseBufferItem data:scroller=ihan testimenoja tässä item:1
+getItemByNumber
+parseBufferItem
+addItemToBuffer
+findBufferItem
+getBufferLetter
+addNewBufferItem data:y=400 step:2 item:1
+getBufferStep
+parseBufferItem data:y=400 item:1
+getItemByNumber
+parseBufferItem
+Item uninitialized 
+findBufferItem
+getBufferLetter
+Key 27 unknown
+~buffer
+~bufferList
+~bufferItem item:
+~bufferItem item:
+~Item step=50
+~Item y=-1
+~bufferItem item:
+~Item uninitialized
+~Item y=400
